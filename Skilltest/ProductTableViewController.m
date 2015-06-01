@@ -84,6 +84,7 @@
     if(p.image){
         cell.logoIV.image = p.image;
     }else{
+        cell.logoIV.image = [UIImage new];
         [cell.logoIV setImageWithURLRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:p.imageUrl]] placeholderImage:nil success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
             
             cell.logoIV.image = image;
