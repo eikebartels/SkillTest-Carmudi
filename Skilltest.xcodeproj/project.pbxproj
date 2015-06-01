@@ -6,15 +6,33 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		CE5B6CE31B1C47F30072C7F3 /* Mogenerator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CE5B6CE41B1C47F30072C7F3 /* Build configuration list for PBXAggregateTarget "Mogenerator" */;
+			buildPhases = (
+				CE5B6CE71B1C48050072C7F3 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Mogenerator;
+			productName = Mogenerator;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2A6D612AE35CAE97F5247E67 /* libPods-Skilltest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB55CF047007A92433B985AF /* libPods-Skilltest.a */; };
 		CE5B6CBC1B1C45B70072C7F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CBB1B1C45B70072C7F3 /* main.m */; };
 		CE5B6CBF1B1C45B70072C7F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CBE1B1C45B70072C7F3 /* AppDelegate.m */; };
-		CE5B6CC21B1C45B70072C7F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CC11B1C45B70072C7F3 /* ViewController.m */; };
 		CE5B6CC51B1C45B70072C7F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5B6CC31B1C45B70072C7F3 /* Main.storyboard */; };
 		CE5B6CC71B1C45B70072C7F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5B6CC61B1C45B70072C7F3 /* Images.xcassets */; };
 		CE5B6CCA1B1C45B70072C7F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5B6CC81B1C45B70072C7F3 /* LaunchScreen.xib */; };
 		CE5B6CD61B1C45B70072C7F3 /* SkilltestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CD51B1C45B70072C7F3 /* SkilltestTests.m */; };
+		CE5B6CE11B1C46FC0072C7F3 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CDF1B1C46FC0072C7F3 /* DataModel.xcdatamodeld */; };
+		CE5B6CEE1B1C48D20072C7F3 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CEA1B1C48D20072C7F3 /* Product.m */; };
+		CE5B6CEF1B1C48D20072C7F3 /* _Product.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CED1B1C48D20072C7F3 /* _Product.m */; };
+		CE5B6CF21B1C49130072C7F3 /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CF11B1C49130072C7F3 /* ProductTableViewController.m */; };
+		CE5B6CF51B1C56080072C7F3 /* ProductTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5B6CF41B1C56070072C7F3 /* ProductTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +54,21 @@
 		CE5B6CBB1B1C45B70072C7F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE5B6CBD1B1C45B70072C7F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE5B6CBE1B1C45B70072C7F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE5B6CC01B1C45B70072C7F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE5B6CC11B1C45B70072C7F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE5B6CC41B1C45B70072C7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5B6CC61B1C45B70072C7F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE5B6CC91B1C45B70072C7F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CE5B6CCF1B1C45B70072C7F3 /* SkilltestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkilltestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5B6CD41B1C45B70072C7F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE5B6CD51B1C45B70072C7F3 /* SkilltestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SkilltestTests.m; sourceTree = "<group>"; };
+		CE5B6CE01B1C46FC0072C7F3 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		CE5B6CE91B1C48D20072C7F3 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		CE5B6CEA1B1C48D20072C7F3 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		CE5B6CEC1B1C48D20072C7F3 /* _Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Product.h; sourceTree = "<group>"; };
+		CE5B6CED1B1C48D20072C7F3 /* _Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Product.m; sourceTree = "<group>"; };
+		CE5B6CF01B1C49130072C7F3 /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
+		CE5B6CF11B1C49130072C7F3 /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
+		CE5B6CF31B1C56070072C7F3 /* ProductTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewCell.h; sourceTree = "<group>"; };
+		CE5B6CF41B1C56070072C7F3 /* ProductTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,14 +130,18 @@
 		CE5B6CB81B1C45B70072C7F3 /* Skilltest */ = {
 			isa = PBXGroup;
 			children = (
+				CE5B6CE21B1C47CB0072C7F3 /* Models */,
+				CE5B6CDF1B1C46FC0072C7F3 /* DataModel.xcdatamodeld */,
 				CE5B6CBD1B1C45B70072C7F3 /* AppDelegate.h */,
 				CE5B6CBE1B1C45B70072C7F3 /* AppDelegate.m */,
-				CE5B6CC01B1C45B70072C7F3 /* ViewController.h */,
-				CE5B6CC11B1C45B70072C7F3 /* ViewController.m */,
+				CE5B6CF01B1C49130072C7F3 /* ProductTableViewController.h */,
+				CE5B6CF11B1C49130072C7F3 /* ProductTableViewController.m */,
 				CE5B6CC31B1C45B70072C7F3 /* Main.storyboard */,
 				CE5B6CC61B1C45B70072C7F3 /* Images.xcassets */,
 				CE5B6CC81B1C45B70072C7F3 /* LaunchScreen.xib */,
 				CE5B6CB91B1C45B70072C7F3 /* Supporting Files */,
+				CE5B6CF31B1C56070072C7F3 /* ProductTableViewCell.h */,
+				CE5B6CF41B1C56070072C7F3 /* ProductTableViewCell.m */,
 			);
 			path = Skilltest;
 			sourceTree = "<group>";
@@ -141,6 +170,33 @@
 				CE5B6CD41B1C45B70072C7F3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE5B6CE21B1C47CB0072C7F3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B6CE81B1C48D20072C7F3 /* Human */,
+				CE5B6CEB1B1C48D20072C7F3 /* Machine */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE5B6CE81B1C48D20072C7F3 /* Human */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B6CE91B1C48D20072C7F3 /* Product.h */,
+				CE5B6CEA1B1C48D20072C7F3 /* Product.m */,
+			);
+			path = Human;
+			sourceTree = "<group>";
+		};
+		CE5B6CEB1B1C48D20072C7F3 /* Machine */ = {
+			isa = PBXGroup;
+			children = (
+				CE5B6CEC1B1C48D20072C7F3 /* _Product.h */,
+				CE5B6CED1B1C48D20072C7F3 /* _Product.m */,
+			);
+			path = Machine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +255,9 @@
 						CreatedOnToolsVersion = 6.3.1;
 						TestTargetID = CE5B6CB51B1C45B70072C7F3;
 					};
+					CE5B6CE31B1C47F30072C7F3 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
 				};
 			};
 			buildConfigurationList = CE5B6CB11B1C45B70072C7F3 /* Build configuration list for PBXProject "Skilltest" */;
@@ -216,6 +275,7 @@
 			targets = (
 				CE5B6CB51B1C45B70072C7F3 /* Skilltest */,
 				CE5B6CCE1B1C45B70072C7F3 /* SkilltestTests */,
+				CE5B6CE31B1C47F30072C7F3 /* Mogenerator */,
 			);
 		};
 /* End PBXProject section */
@@ -271,6 +331,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Skilltest/Pods-Skilltest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CE5B6CE71B1C48050072C7F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/mogenerator -m Skilltest/DataModel.xcdatamodeld -O Efficient\\ Sea/Models --template-var arc=true --machine-dir Skilltest/Models/Machine --human-dir Skilltest/Models/Human";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -278,8 +351,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5B6CC21B1C45B70072C7F3 /* ViewController.m in Sources */,
+				CE5B6CEF1B1C48D20072C7F3 /* _Product.m in Sources */,
+				CE5B6CF21B1C49130072C7F3 /* ProductTableViewController.m in Sources */,
+				CE5B6CEE1B1C48D20072C7F3 /* Product.m in Sources */,
+				CE5B6CE11B1C46FC0072C7F3 /* DataModel.xcdatamodeld in Sources */,
 				CE5B6CBF1B1C45B70072C7F3 /* AppDelegate.m in Sources */,
+				CE5B6CF51B1C56080072C7F3 /* ProductTableViewCell.m in Sources */,
 				CE5B6CBC1B1C45B70072C7F3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,6 +535,20 @@
 			};
 			name = Release;
 		};
+		CE5B6CE51B1C47F30072C7F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE5B6CE61B1C47F30072C7F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -488,7 +579,28 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CE5B6CE41B1C47F30072C7F3 /* Build configuration list for PBXAggregateTarget "Mogenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5B6CE51B1C47F30072C7F3 /* Debug */,
+				CE5B6CE61B1C47F30072C7F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE5B6CDF1B1C46FC0072C7F3 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE5B6CE01B1C46FC0072C7F3 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = CE5B6CE01B1C46FC0072C7F3 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE5B6CAE1B1C45B70072C7F3 /* Project object */;
 }

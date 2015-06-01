@@ -8,19 +8,41 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-Skilltest-MagicalRecord.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>Pods-Skilltest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>16130DBBACB2D987E10CF87F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>367126DB60E845225A1A4CD0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD99307B2C7ADD7A2967A103</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

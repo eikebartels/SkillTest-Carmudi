@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProductTableViewController.h
 //  Skilltest
 //
 //  Created by Eike Bartels on 1/06/2015.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ProductTableViewController : UITableViewController
 
 @end
-

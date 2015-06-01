@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Mogenerator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Skilltest.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>CE5B6CCE1B1C45B70072C7F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE5B6CE31B1C47F30072C7F3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
